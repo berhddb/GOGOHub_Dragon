@@ -2130,7 +2130,7 @@ local function createTeleportButtons(islands)
                 elseif island == "Port Town" then
                     toTarget(CFrame.new(-290.7376708984375, 6.729952812194824, 5343.5537109375))
                 elseif island == "Hydra Island" then
-                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(5753.5478515625, 610.7880859375, -282.33172607421875))
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(5661.53027, 1013.05524, -334.96191))
                 elseif island == "Floating Turtle" then
                     toTarget(CFrame.new(-13274.528320313, 531.82073974609, -7579.22265625))
                 elseif island == "Mansion" then
@@ -2147,6 +2147,8 @@ local function createTeleportButtons(islands)
                     toTarget(CFrame.new(87.94276428222656, 73.55451202392578, -12319.46484375))
                 elseif island == "Candy Island" then
                     toTarget(CFrame.new(-1014.4241943359375, 149.11068725585938, -14555.962890625))
+                elseif island == "Great Tree" then
+                    toTarget(CFrame.new(2293.30615, 74.24622, -7473.44092))
                 elseif island == "Tiki Outpost" then
                     toTarget(CFrame.new(-16542.447265625, 55.68632888793945, 1044.41650390625))
                 end
@@ -2310,8 +2312,6 @@ MiscTab:CreateButton({
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "2")
     end
 })
-
-
 
 -- Finalização do script
 Rayfield:Notify({
